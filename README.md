@@ -21,12 +21,6 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 # Acesse a pasta do projeto no terminal/cmd
 $ cd econverse
 
-# Instale o SASS
-$ npm install node-sass
-
-# Instale o Slider(slick-carroussel)
-$ npm install slick-carousel
-$ npm install react-slick --save
 
 # Instale as dependências
 $ npm install
