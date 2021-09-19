@@ -1,0 +1,72 @@
+.slick-prev:before,
+.slick-next:before {
+  display: none;
+}
+
+.container-wrapper {
+  background: #f7f7f7;
+  border-radius: 6px;
+  width: 80%;
+  box-shadow: 0 0 4px;
+  padding: 52px 0 47px 0;
+  margin: 0 auto -20px;
+  position: relative;
+}
+
+.container-feedback {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+
+  .user-photo {
+    width: 83px;
+    height: 81px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 11px;
+  }
+
+  .user-infos {
+    margin-right: 26px;
+
+    .user-name,
+    .user-role {
+      color: #041e50;
+      margin: 0;
+    }
+
+    .user-name {
+      font-weight: 700;
+      font-size: 12px;
+    }
+
+    .user-role {
+      font-size: 10px;
+    }
+  }
+
+  .user-text {
+    font-size: 13px;
+    font-weight: 400;
+    background: white;
+    position: relative;
+    box-shadow: 0 0 1px;
+
+    p {
+      padding: 23px 43px;
+      margin: 0;
+    }
+
+    .triangle {
+      width: 20px;
+      height: 20px;
+      background: white;
+      border-bottom: 1px solid rgb(206, 202, 202);
+      border-left: 1px solid rgb(206, 202, 202);
+      position: absolute;
+      left: -11px;
+      bottom: 50%;
+      transform: translateY(50%) rotate(45deg);
+    }
+  }
+}

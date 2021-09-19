@@ -1,0 +1,35 @@
+.categories {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 15px;
+  padding-right: 140px;
+  padding-left: 110px;
+  font-size: 14px;
+
+  align-items: flex-start;
+
+  .categories-list {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    justify-content: space-between;
+  }
+
+  .categories-item {
+    cursor: pointer;
+    padding: 20px;
+    display: inline-block;
+  }
+  img {
+    height: 106px;
+    width: auto;
+    opacity: 0.5;
+    transform: scale(0.9);
+    transition: all 0.4s;
+  }
+  img:hover {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

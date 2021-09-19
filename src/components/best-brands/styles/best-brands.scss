@@ -1,0 +1,64 @@
+* {
+    font-family: Lato;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  display: none;
+}
+
+.best-brands-title {
+    padding: 0 140px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    h2 {
+        color: #041E50;    
+        font-size: 25px;
+        letter-spacing: 0.1em;
+        
+    }
+
+    p {
+        
+        font-size: 15px;
+        color: #A5A5A5;                                                                     
+    }
+
+}
+
+.best-brands {
+    padding: 0 140px;
+    margin-top: 40px;
+}
+.best-brands-logo, .best-brands-logo-akg {
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    opacity:0.5;
+    transform: scale(0.9);
+    transition: all 0.4s;
+    
+
+    .best-brands-logo-akg {
+        height: 90px;
+        padding:0;
+        
+    }
+
+    li {
+        padding: 40px;
+        display:inline-block;
+        margin-left: 45px;  
+        
+
+    }
+
+    li:hover, .best-brands-logo-akg:hover {
+        opacity:1;
+        transform: scale(1);
+        
+    }
+}

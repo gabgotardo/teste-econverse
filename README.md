@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+<h1 align="center">Teste econverse</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">🚀 Site desenvolvido em reactJS, para o teste da vaga front-end junior na econverse.</p>
 
-## Available Scripts
+<h4 align="center"> 
+	🚧  React Select 🚀 Concluído  🚧
+</h4>
 
-In the project directory, you can run:
+### Pré-requisitos
 
-### `npm start`
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [React.js](https://pt-br.reactjs.org/), [Slick-carroussel](https://react-slick.neostack.com/), [SASS]() 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 🎲 Rodando o Back End (servidor)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+# Baixe e instale o Node.js
+(https://nodejs.org/en/)
 
-### `npm test`
+# Acesse a pasta do projeto no terminal/cmd
+$ cd econverse
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Instale o SASS
+$ npm install node-sass
 
-### `npm run build`
+# Instale o Slider(slick-carroussel)
+$ npm install slick-carousel
+$ npm install react-slick --save
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Instale as dependências
+$ npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Execute a aplicação 
+$ npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# O servidor inciará na porta:3000- acesse <http://localhost:3000>
+```
 
-### `npm run eject`
+### 🛠 Tecnologias
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+As seguintes ferramentas foram usadas na construção do projeto:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [React](https://pt-br.reactjs.org/)
+- [Node.js](https://nodejs.org/en/)
+- [Sass](https://www.npmjs.com/package/node-sass)
+- [Slider(slick-carrousel)](https://react-slick.neostack.com/docs/get-started)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Autor
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<a href="https://github.com/gabgotardo">
+ <img style="border-radius: 50%;" src="{https://media-exp1.licdn.com/dms/image/C5603AQHATlNjgzTPUg/profile-displayphoto-shrink_800_800/0/1630682344092?e=1637798400&v=beta&t=SzoQlauGbhhAVxwes1cI6Hu6wd4sr52oElLApquiPS0}" width="100px;" alt=""/>
+ <br />
+ <sub><b>Gabriel Gotardo</b></sub></a> 
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Feito com muito ❤️ e capricho por Gabriel Gotardo 👋🏽 espero que gostem!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+(https://www.linkedin.com/in/gabriel-gotardo/) 
+(gabrielgotardodev@gmail.com    )

@@ -1,0 +1,189 @@
+
+header {
+    width: 100%;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    
+    
+    .header-1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 38px;
+        background-color: #041E50;
+        padding: 0 140px;
+
+        .header-1-items {
+            display: flex;
+            align-items: center;
+        }
+
+        .header-1-items-line {
+            width: 19px;
+            border: 1px solid #FFFFFF;
+            transform: rotate(90deg);
+        }
+        
+        .header-1-text {
+            font-family: Lato;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 10px;
+            letter-spacing: 0.09em;
+            color: #FFFFFF;
+        
+        } 
+
+        .cadeado, .percent, .caminhao {
+            margin-right: 16px;
+        }
+
+    }
+
+    .header-2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 140px;
+        
+
+        .header-2-searchBox {
+            position: relative;
+
+            .header-2-lupa {
+                position: absolute !important;
+                left: 325px;
+                top: 17px;
+                z-index:1;
+            }
+        
+            .header-2-input {
+                width: 339px;
+                height: 41px;
+                border: 1px solid #b9adad;
+                border-radius: 4px;
+                padding: 5px 5px 5px 15px;
+                font-size: 12px;
+                letter-spacing: 1px;
+                
+                
+            }
+        }
+            .header-2-icons-tel {
+                font-size: 10px;
+                display: flex;
+                color: #041E50;
+                cursor: pointer;
+                p {
+                    letter-spacing: 1px; 
+                }
+
+                img {
+                    margin-right: 9.54px;
+                }
+                
+                
+            }
+        
+
+        .header-2-icons-user {
+            display: flex;
+            justify-content: center;
+            cursor: pointer;
+            font-weight: normal;
+
+            .options {
+                list-style: none;
+                padding-left: 10px;
+
+                .visit { 
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 10px;
+                    letter-spacing: 0.09em;
+                    color: #041E50;
+                    margin-bottom: 5px;
+                }
+                .my-account {
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 7px;
+                    line-height: 100%;
+                    letter-spacing: 0.09em;
+
+                    color: #041E50;
+
+                }
+            }
+            
+        }
+        .header-2-cart {
+            display: flex;
+            background-color: #041E50;
+            flex-direction: column;
+            width: 77px;
+            height: 112px;
+            font-size: 7px;
+            font-style: normal;
+            
+
+            .cart {
+               width: 22px;
+               height: 27px;
+                margin-left: 28px;
+                margin-top: 31px;
+            }
+
+            .my-cart, .my-items {
+                font-family: Lato;
+                font-style: normal;
+                font-weight: bold;
+                letter-spacing: 0.09em;
+                color: #FFFFFF;
+                text-align: center;
+                
+
+            }
+            .my-cart {
+                font-size: 7px;
+                margin-top: 11px;
+                
+            }
+            .my-items {
+                margin-top: 1px;
+                font-size: 10px;
+            }
+        }
+    }
+
+    .header-menu-nav {
+        margin-top: -21px;
+        border-top: 1px solid #dad1d1;
+        margin-bottom: 30px;
+        
+        font-style: normal;
+        font-weight: bold;
+
+            .header-menu-list{
+                list-style: none;
+                font-size: 10px;
+                margin-top: 13px;
+                color: #041E50;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-left:140px;
+                padding-right: 278px;
+                
+
+                .header-menu-item {
+                    cursor: pointer;
+                    letter-spacing: 1px;
+                }
+            }
+        
+    }
+}

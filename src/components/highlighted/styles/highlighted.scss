@@ -1,0 +1,242 @@
+.highlighted {
+  .modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+
+    &--disabled {
+      display: none;
+    }
+  }
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .highlighted-title {
+    margin-top: 90px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+
+    h2 {
+      font-family: Lato;
+      letter-spacing: 0.1em;
+      font-size: 23px;
+
+      color: #041e50;
+    }
+
+    h4 {
+      letter-spacing: 0.1em;
+      font-size: 15px;
+      letter-spacing: 0.1em;
+      color: #222222;
+    }
+  }
+
+    
+  .highlighted-vitrine {
+    width: 90%;
+    margin: 0 auto;
+
+    .highlighted-vitrine-items {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      cursor: pointer;
+    }
+
+    
+
+     .product-photo {
+      transition: all   0.5s;
+      padding-left: 25px;
+      transform:translateY(none);
+      
+    
+    }
+    
+    
+    .product-photo:hover  {
+      transform:translateY(-25px);
+      transition: height 0.5s ease-out; 
+    }
+
+    .highlighted-vitrine-items-list {
+      transition: all ease 0.5s;
+      margin: 10px 0;
+    }
+
+    .highlighted-vitrine-items-list:hover {
+      border: 1px solid;
+      
+      box-shadow: 2px 5px 5px #888888;
+    }
+
+    img {
+      width: 218px;
+      height: 174px;
+    }
+
+    h4,
+    h3,
+    p {
+      font-family: Lato;
+      color: #041e50;
+      text-align: center;
+      line-height: 130%;
+    }
+    .product-name {
+      font-weight: bold;
+      font-size: 15px;
+    }
+
+    
+    
+    .product-desc {
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 10px;
+      line-height: 130%;
+      text-align: center;
+      letter-spacing: 0.05em;
+      color: #041E50;
+      text-align: justify;
+    }
+
+    .product-price {
+      font-family: Lato;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      text-align: center;
+      letter-spacing: 0.02em;
+      color: #041E50;
+
+    }
+
+    .highlighted-vitrine-items-list:hover {
+      box-shadow:10px 9px 12px grey;  
+      border: transparent;
+    }
+
+
+
+  }
+
+    .seeMore {
+      position: relative  ;
+      left: 550px;
+      background-color: transparent;  
+      border: solid 1px #bbb7b7;
+      padding: 15px 30px;
+      border-radius: 4px;
+      margin: 40px 0 90px 0;
+      cursor: pointer;
+
+    }
+  .modal-content {
+    width: 769px;
+    height: 355px;
+    justify-content:center;;
+    display:flex;
+    border-radius: 5px;
+    
+  }
+  .modal-items {
+    
+
+    .modal-items-image {
+      padding-top: 45px;
+      margin-bottom: 55.4;
+      width: 329px;
+      height: 262.6px;
+    }
+
+  
+    .modal-details{
+      padding-top: 70px;
+      margin-bottom: 60px;
+      display: flex;
+      flex-direction: column;
+      align-content: space-between;
+      justify-content: space-between;
+
+      .modal-title, .modal-price, .modal-desc, .modal-seeMore, .modal-button {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        color: #041E50;
+        letter-spacing: 0.05em;
+  
+      }
+      
+      .modal-title {
+        font-size: 20px;
+      }
+
+      .modal-price {
+        font-weight: 900;
+        font-size: 20px;
+      }
+
+      .model-desc {
+        font-size: 104px;
+        color:#222222;
+      }
+
+      .modal-seeMore {
+        font-size: 12px;
+        text-decoration: underline;
+        cursor:pointer;
+
+      }
+
+      .modal-button {
+        font-family: Lato;
+        letter-spacing: 0.05em;
+        font-style: normal;
+        font-weight: bold;
+        width: 164px;
+        height: 40px;
+        font-size: 11px;
+
+        border:none;
+        background: #041E50;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+
+      }
+    }
+
+  }
+}
+

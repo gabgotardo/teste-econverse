@@ -1,0 +1,63 @@
+.news {
+  display: flex;
+
+  .items {
+    padding-top: 60px;
+  }
+
+  .side-left {
+    background-image: url("../../../assets/svg/audio.jpg");
+    width: 48%;
+    height: 386px;
+    align-items: center;
+    text-align: center;
+    
+    
+  }
+ 
+  .side-right {
+    background-image: url("../../../assets/svg/instrumentos.jpg");
+    width: 52%;
+    height: 386px;
+    align-items: center;
+    text-align: center;
+  }
+
+  h3 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    color: #ffffff;
+  }
+
+  .title {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 41px;
+    letter-spacing: 0.09em;
+    color: #FFFFFF;
+    
+  }
+
+  .text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    letter-spacing: 0.12em;
+    color: #FFFFFF;
+    margin-top: -30px;
+  }
+
+  button {
+    border: 1px solid #ffffff;
+    align-items: center;
+    border-radius: 5px;
+    color: #ffffff;
+    padding:20px 40px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+}
